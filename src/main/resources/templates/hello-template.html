@@ -1,0 +1,9 @@
+
+<html xmlns:th="http://www.thymeleaf.org">
+<body>
+<p th:text="'hello ' + ${name}">hello! empty</p>
+</body>
+
+//서버 없이 그냥 html 볼 때 안에 hello! empty를 넣어둠.
+//서버가 있다면 'hello ' + ${name} 로 치환.
+//의 의미는 모델에서 값을 꺼내겠다.
